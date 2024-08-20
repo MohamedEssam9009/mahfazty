@@ -22,6 +22,7 @@ class MyTextFormField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextFormField(
+      validator: validator,
       controller: controller,
       obscureText: isObscure,
       style: FontHelper.font13GreyW300,

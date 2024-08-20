@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mahfazty/core/routing/routes.dart';
 import 'package:mahfazty/core/theming/fonts.dart';
 
 class DontHaveAnAccount extends StatelessWidget {
@@ -14,7 +15,9 @@ class DontHaveAnAccount extends StatelessWidget {
           style: FontHelper.font13WhiteW300,
         ),
         TextButton(
-          onPressed: () {},
+          onPressed: () {
+            Navigator.pushNamed(context, Routes.signUp);
+          },
           child: const Text('Sign Up'),
         ),
       ],
