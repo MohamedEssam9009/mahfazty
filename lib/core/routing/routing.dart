@@ -7,6 +7,7 @@ import 'package:mahfazty/features/login/logic/cubit/login_cubit.dart';
 import 'package:mahfazty/features/login/ui/screens/login_screen.dart';
 import 'package:mahfazty/features/signup/logic/cubit/sign_up_cubit.dart';
 import 'package:mahfazty/features/signup/ui/screens/sign_up_screen.dart';
+import 'package:mahfazty/features/transactions/ui/screens/transactions_screen.dart';
 
 class Routing {
   Route generateRoute(RouteSettings settings) {
@@ -28,6 +29,10 @@ class Routing {
       case Routes.home:
         return MaterialPageRoute(
           builder: (context) => const HomeScreen(),
+        );
+      case Routes.transactions:
+        return MaterialPageRoute(
+          builder: (context) => const TransactionsScreen(),
         );
       default:
         return MaterialPageRoute(
