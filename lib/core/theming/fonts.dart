@@ -2,6 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class FontHelper {
+  static TextStyle font20BoldWhite = GoogleFonts.poppins(
+    fontSize: 20,
+    fontWeight: FontWeight.bold,
+    color: Colors.white,
+  );
   static TextStyle font18BoldWhite = GoogleFonts.poppins(
     fontSize: 18,
     fontWeight: FontWeight.bold,

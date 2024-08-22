@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mahfazty/core/networking/firebase_helper.dart';
 import 'package:mahfazty/core/routing/routes.dart';
 import 'package:mahfazty/features/home/ui/screens/home_screen.dart';
+import 'package:mahfazty/features/home/ui/widgets/add_transaction_screen.dart';
 import 'package:mahfazty/features/login/logic/cubit/login_cubit.dart';
 import 'package:mahfazty/features/login/ui/screens/login_screen.dart';
 import 'package:mahfazty/features/signup/logic/cubit/sign_up_cubit.dart';
@@ -30,9 +31,13 @@ class Routing {
         return MaterialPageRoute(
           builder: (context) => const HomeScreen(),
         );
-      case Routes.transactions:
+      case Routes.chart:
         return MaterialPageRoute(
           builder: (context) => const TransactionsScreen(),
+        );
+        case Routes.transaction:
+        return MaterialPageRoute(
+          builder: (context) => const AddTransactionScreen(),
         );
       default:
         return MaterialPageRoute(
