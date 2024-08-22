@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:mahfazty/core/routing/routing.dart';
-import 'package:mahfazty/home_or_login.dart';
+import 'core/routing/routing.dart';
+import 'home_or_login.dart';
 
 class MyApp extends StatelessWidget {
   final Routing routing;

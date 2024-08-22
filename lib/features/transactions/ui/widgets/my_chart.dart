@@ -1,6 +1,6 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
-import 'package:mahfazty/core/theming/fonts.dart';
+import '../../../../core/theming/fonts.dart';
 
 class MyChart extends StatefulWidget {
   const MyChart({super.key});

@@ -1,11 +1,11 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:mahfazty/core/helpers/spacing.dart';
-import 'package:mahfazty/core/networking/firebase_helper.dart';
-import 'package:mahfazty/core/theming/fonts.dart';
-import 'package:mahfazty/core/theming/my_colors.dart';
-import 'package:mahfazty/core/widgets/my_button.dart';
+import '../../../../core/helpers/spacing.dart';
+import '../../../../core/networking/firebase_helper.dart';
+import '../../../../core/theming/fonts.dart';
+import '../../../../core/theming/my_colors.dart';
+import '../../../../core/widgets/my_button.dart';
 
 class AddTransactionScreen extends StatefulWidget {
   const AddTransactionScreen({super.key});

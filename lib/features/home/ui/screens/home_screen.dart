@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:mahfazty/core/theming/my_colors.dart';
-import 'package:mahfazty/features/home/ui/widgets/home.dart';
-import 'package:mahfazty/features/transactions/ui/screens/transactions_screen.dart';
+import '../../../../core/theming/my_colors.dart';
+import '../widgets/home.dart';
+import '../../../transactions/ui/screens/transactions_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

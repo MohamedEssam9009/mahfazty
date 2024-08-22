@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:mahfazty/core/helpers/spacing.dart';
-import 'package:mahfazty/core/routing/routes.dart';
-import 'package:mahfazty/core/theming/fonts.dart';
-import 'package:mahfazty/features/home/ui/widgets/balance_widget.dart';
-import 'package:mahfazty/features/home/ui/widgets/expense_tile_widget.dart';
-import 'package:mahfazty/features/home/ui/widgets/my_app_bar.dart';
-import 'package:mahfazty/features/home/ui/widgets/percents_widget.dart';
+import '../../../../core/helpers/spacing.dart';
+import '../../../../core/routing/routes.dart';
+import '../../../../core/theming/fonts.dart';
+import 'balance_widget.dart';
+import 'expense_tile_widget.dart';
+import 'my_app_bar.dart';
+import 'percents_widget.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});

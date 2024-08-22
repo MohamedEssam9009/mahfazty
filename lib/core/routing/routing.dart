@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mahfazty/core/networking/firebase_helper.dart';
-import 'package:mahfazty/core/routing/routes.dart';
-import 'package:mahfazty/features/home/ui/screens/home_screen.dart';
-import 'package:mahfazty/features/home/ui/widgets/add_transaction_screen.dart';
-import 'package:mahfazty/features/login/logic/cubit/login_cubit.dart';
-import 'package:mahfazty/features/login/ui/screens/login_screen.dart';
-import 'package:mahfazty/features/signup/logic/cubit/sign_up_cubit.dart';
-import 'package:mahfazty/features/signup/ui/screens/sign_up_screen.dart';
-import 'package:mahfazty/features/transactions/ui/screens/transactions_screen.dart';
+import '../networking/firebase_helper.dart';
+import 'routes.dart';
+import '../../features/home/ui/screens/home_screen.dart';
+import '../../features/home/ui/widgets/add_transaction_screen.dart';
+import '../../features/login/logic/cubit/login_cubit.dart';
+import '../../features/login/ui/screens/login_screen.dart';
+import '../../features/signup/logic/cubit/sign_up_cubit.dart';
+import '../../features/signup/ui/screens/sign_up_screen.dart';
+import '../../features/transactions/ui/screens/transactions_screen.dart';
 
 class Routing {
   Route generateRoute(RouteSettings settings) {

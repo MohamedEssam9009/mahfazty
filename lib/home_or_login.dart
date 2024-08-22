@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:mahfazty/features/home/ui/screens/home_screen.dart';
-import 'package:mahfazty/features/login/ui/screens/login_screen.dart';
+import 'features/home/ui/screens/home_screen.dart';
+import 'features/login/ui/screens/login_screen.dart';
 
 class HomeOrLogin extends StatelessWidget {
   const HomeOrLogin({super.key});

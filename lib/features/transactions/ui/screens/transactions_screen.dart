@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mahfazty/features/transactions/ui/widgets/my_chart.dart';
+import '../widgets/my_chart.dart';
 
 class TransactionsScreen extends StatelessWidget {
   const TransactionsScreen({super.key});

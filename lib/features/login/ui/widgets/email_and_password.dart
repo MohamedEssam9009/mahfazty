@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mahfazty/core/helpers/spacing.dart';
-import 'package:mahfazty/core/theming/fonts.dart';
-import 'package:mahfazty/core/theming/my_colors.dart';
-import 'package:mahfazty/core/widgets/my_button.dart';
-import 'package:mahfazty/core/widgets/my_text_form_field.dart';
-import 'package:mahfazty/features/login/logic/cubit/login_cubit.dart';
+import '../../../../core/helpers/spacing.dart';
+import '../../../../core/theming/fonts.dart';
+import '../../../../core/theming/my_colors.dart';
+import '../../../../core/widgets/my_button.dart';
+import '../../../../core/widgets/my_text_form_field.dart';
+import '../../logic/cubit/login_cubit.dart';
 
 class EmailAndPassword extends StatefulWidget {
   const EmailAndPassword({super.key});

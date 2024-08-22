@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mahfazty/core/helpers/spacing.dart';
-import 'package:mahfazty/core/theming/fonts.dart';
-import 'package:mahfazty/core/widgets/my_text_form_field.dart';
-import 'package:mahfazty/features/signup/logic/cubit/sign_up_cubit.dart';
+import '../../../../core/helpers/spacing.dart';
+import '../../../../core/theming/fonts.dart';
+import '../../../../core/widgets/my_text_form_field.dart';
+import '../../logic/cubit/sign_up_cubit.dart';
 
 class SignUpFormField extends StatefulWidget {
   const SignUpFormField({super.key});

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mahfazty/core/helpers/spacing.dart';
-import 'package:mahfazty/core/theming/fonts.dart';
-import 'package:mahfazty/core/theming/my_colors.dart';
+import '../../../../core/helpers/spacing.dart';
+import '../../../../core/theming/fonts.dart';
+import '../../../../core/theming/my_colors.dart';
 
 class BalanceWidget extends StatelessWidget {
   const BalanceWidget({super.key});

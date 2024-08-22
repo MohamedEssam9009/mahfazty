@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:mahfazty/core/helpers/spacing.dart';
-import 'package:mahfazty/core/theming/fonts.dart';
+import '../../../../core/helpers/spacing.dart';
+import '../../../../core/theming/fonts.dart';
 
 class ExpenseTileWidget extends StatelessWidget {
   const ExpenseTileWidget({super.key});
