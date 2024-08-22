@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:mahfazty/core/helpers/spacing.dart';
-import 'package:mahfazty/features/login/ui/widgets/build_bloc_listener.dart';
-import 'package:mahfazty/features/login/ui/widgets/dont_have_an_account.dart';
-import 'package:mahfazty/features/login/ui/widgets/email_and_password.dart';
-import 'package:mahfazty/features/login/ui/widgets/terms_and_conditions.dart';
+import '../../../../core/helpers/spacing.dart';
+import '../widgets/build_bloc_listener.dart';
+import '../widgets/dont_have_an_account.dart';
+import '../widgets/email_and_password.dart';
+import '../widgets/terms_and_conditions.dart';
 
 import '../../../../core/theming/my_colors.dart';
 

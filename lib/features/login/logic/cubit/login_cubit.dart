@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:mahfazty/core/networking/firebase_helper.dart';
+import '../../../../core/networking/firebase_helper.dart';
 
 part 'login_state.dart';
 

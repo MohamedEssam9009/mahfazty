@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mahfazty/core/routing/routes.dart';
-import 'package:mahfazty/features/signup/logic/cubit/sign_up_cubit.dart';
+import '../../../../core/routing/routes.dart';
+import '../../logic/cubit/sign_up_cubit.dart';
 
 class SignUpListenerWidget extends StatelessWidget {
   const SignUpListenerWidget({super.key});

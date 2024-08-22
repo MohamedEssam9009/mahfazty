@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mahfazty/core/theming/fonts.dart';
+import '../../../../core/theming/fonts.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 
 class PercentsWidget extends StatelessWidget {

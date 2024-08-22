@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mahfazty/core/helpers/spacing.dart';
-import 'package:mahfazty/core/theming/fonts.dart';
-import 'package:mahfazty/core/widgets/my_button.dart';
-import 'package:mahfazty/features/login/ui/widgets/terms_and_conditions.dart';
-import 'package:mahfazty/features/signup/logic/cubit/sign_up_cubit.dart';
-import 'package:mahfazty/features/signup/ui/widgets/sign_up_form_field.dart';
-import 'package:mahfazty/features/signup/ui/widgets/sign_up_listener_widget.dart';
+import '../../../../core/helpers/spacing.dart';
+import '../../../../core/theming/fonts.dart';
+import '../../../../core/widgets/my_button.dart';
+import '../../../login/ui/widgets/terms_and_conditions.dart';
+import '../../logic/cubit/sign_up_cubit.dart';
+import '../widgets/sign_up_form_field.dart';
+import '../widgets/sign_up_listener_widget.dart';
 
 import '../../../../core/theming/my_colors.dart';
 
