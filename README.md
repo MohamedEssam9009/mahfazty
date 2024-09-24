@@ -4,5 +4,3 @@ Mahfazty is a Flutter-based electronic wallet app that leverages Firebase for ba
 ## Screens
 
 - Android 12+
-
-![Mahfazty Presentation](https://github.com/user-attachments/assets/e056225c-8593-40ae-b0fd-b40836128887)
